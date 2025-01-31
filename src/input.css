@@ -21,7 +21,7 @@
         top: 10vh;
         left: 0;
         position: absolute;
-        /* z-index: 500; */
+        z-index: 100;
          }
          .bandes{
            width: 10%;
@@ -36,7 +36,7 @@
          .wipe-transition{
            width: 100vw;
            height: 100vh;
-           /* background-color:red; */
+         
            position: absolute;
            left: -100%;
          }
