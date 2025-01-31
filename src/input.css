@@ -21,7 +21,7 @@
         top: 10vh;
         left: 0;
         position: absolute;
-        z-index: 500;
+        /* z-index: 500; */
          }
          .bandes{
            width: 10%;
