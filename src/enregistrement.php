@@ -1,3 +1,40 @@
+
+<?php
+
+require_once"connexion.php";
+$message="";
+
+if(isset($_POST['ok'])){
+
+    $nom=htmlspecialchars($_POST['nom']);
+    $etablissement=htmlspecialchars($_POST['etablissement']);
+    $classe=htmlspecialchars($_POST['classe']);
+    $serie=htmlspecialchars($_POST['serie']);
+    $moyenne=floatval($_POST['moyenne']);
+    $contact=htmlspecialchars($_POST['contact']);
+    $contact_p=htmlspecialchars($_POST['contact_p']);
+    $concours=htmlspecialchars($_POST['concours']);
+
+    if(empty($nom) || empty($etablissement) || empty($classe) || empty($serie) || empty($moyenne) || empty($contact) || empty($contact_p) || empty($concours)){
+
+        $message="Veuillez remplir tout les champs";
+    }else{
+
+    $req = $cnx->prepare("INSERT INTO  apprenant (nom, etablissement, classe, serie, moyenne, contact, contact_p, concours) VALUES (?,?,?,?,?,?,?,?)");
+    $req->execute([$nom, $etablissement, $classe, $serie, $moyenne, $contact, $contact_p, $concours]);
+ 
+    $message="Apprenant inserer avec succes!";
+
+}
+}
+
+
+
+
+?>
+
+
+
 <!doctype html>
 <html>
 
@@ -17,18 +54,18 @@
         <nav class="">
             <ul class="flex gap-[30px]">
                 <li>
-                    <a href="index.html" class="text-1.75xl hover:text-[#333]">Accueil</a>
+                    <a href="index.php" class="text-1.75xl hover:text-[#333]">Accueil</a>
                 </li>
                 <li>
-                    <a href="enregistrement.html" class="text-1.75xl hover:text-[#333]">S'enregistrer</a>
+                    <a href="enregistrement.php" class="text-1.75xl hover:text-[#333]">S'enregistrer</a>
                 </li>
                 <li>
-                    <a href="table.html" class="text-1.75xl hover:text-[#333]">Table</a>
+                    <a href="table.php" class="text-1.75xl hover:text-[#333]">Table</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div class="container-bandes">
+    <!-- <div class="container-bandes">
         <div class="bandes"></div>
         <div class="bandes"></div>
         <div class="bandes"></div>
@@ -40,14 +77,15 @@
         <div class="bandes"></div>
         <div class="bandes"></div>
      </div>
-     <div class="wipe-transition"></div>
+     <div class="wipe-transition"></div> -->
      <main data-barba="container" data-barba-namespace="enregistrement">
         <!-- <div class="accueil3"></div> -->
     </main>
     <section class="" id="">
         <h2 class="title-table text-center text-2xl font-bold py-[30px]">Veuillez remplir ce formulaire pour ajouter un
             nouvel etudiant</h2>
-        <form action="" class="pt-[10px] w-[100vw]">
+        <form action="" class="pt-[10px] w-[100vw]" method="POST">
+            <?=$message?>
             <div class=" flex flex-col gap-[20px] w-[100%]">
 
                 <div class="flex flex-col mx-auto text-left justify-star w-[100%]">
@@ -110,7 +148,7 @@
 
                     <input type="submit"
                         class="cursor-pointer outline-none bg-[#333] w-[80%] p-[10px] rounded mx-[auto] text-white hover:bg-blue-950"
-                        value="Ajouter l'apprenant">
+                        value="Ajouter l'apprenant" name="ok">
                 </div>
             </div>
         </form>

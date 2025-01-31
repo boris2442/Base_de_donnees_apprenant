@@ -1,3 +1,14 @@
+
+<?php
+
+require_once"connexion.php";
+
+
+
+?>
+
+
+
 <!doctype html>
 <html>
 <head>
@@ -15,13 +26,13 @@
         <nav class="">
             <ul class="flex gap-[30px]">
                 <li>
-                    <a href="index.html" class="text-1.75xl hover:text-[#333]">Accueil</a>
+                    <a href="index.php" class="text-1.75xl hover:text-[#333]">Accueil</a>
                 </li>
                 <li>
-                    <a href="enregistrement.html" class="text-1.75xl hover:text-[#333]">S'enregistrer</a>
+                    <a href="enregistrement.php" class="text-1.75xl hover:text-[#333]">S'enregistrer</a>
                 </li>
                 <li>
-                    <a href="table.html" class="text-1.75xl hover:text-[#333]">Table</a>
+                    <a href="table.php" class="text-1.75xl hover:text-[#333]">Table</a>
                 </li>
             </ul>
         </nav>
