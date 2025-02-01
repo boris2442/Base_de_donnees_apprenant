@@ -15,7 +15,7 @@ require_once"connexion.php";
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="./output.css" rel="stylesheet">
+  <link href="output.css" rel="stylesheet">
 </head>
 <body class="overflow-x-hidden" data-barba="wrapper">
     <header class="h-15vh w-[100vw] flex justify-around bg-blue-400 items-center text-white font-bold sticky top-[0] z-[10]">
@@ -65,7 +65,7 @@ require_once"connexion.php";
             Rejoignez-nous et atteignez vos objectifs avec confiance ! 💡💪</p>
             <div class="pt-[25px]">
                 
-                <a href="enregistrement.html" class="enregistrement bg-blue-400 py-[10px] px-[20px] text-2xl text-[#000] rounded-full font-bold z-10">S'enregistrer</a>
+                <a href="enregistrement.php" class="enregistrement bg-blue-400 py-[10px] px-[20px] text-2xl text-[#000] rounded-full font-bold z-10">S'enregistrer</a>
             </div>
         </div>
         <div class="">
@@ -80,12 +80,12 @@ require_once"connexion.php";
 
         <p class="font-bold">
             <i class="fa-brands fa-google text-2xl text-[#D14836]"></i>
-            <a href="mailto:" class="">amcorporation@gmail.com</a>
+            <a href="mailto:aubinborissimotsebo@gmail.com" class="" target="_blank">amcorporation@gmail.com</a>
         </p>
         <p class="font-bold">
            
            
-            <a href="https:wa.me/655476087" class=""> <i class="fa-brands fa-whatsapp text-3xl text-green-600"></i></a>
+            <a href="https:wa.me/655476087" class="" target="_blank"> <i class="fa-brands fa-whatsapp text-3xl text-green-600"></i></a>
             AM Corporation
         </p>
         <p class="font-bold">
@@ -95,13 +95,13 @@ require_once"connexion.php";
     </div>
 </section>
 <footer class="">
-    <p class="copy font-bold text-2xl text-center p-[20px]">propulsé par <a href="aubinborissimotsebo@gmail.com" class="text-blue-600">simodev infinity</a>  2025</p>
+    <p class="copy font-bold text-2xl text-center p-[20px]">propulsé par <a href="aubinborissimotsebo@gmail.com" class="text-blue-600" target="_blank">simodev infinity</a>  2025</p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.21.0/core.min.js" integrity="sha512-fo6X5UXaTRf/mHuTYJBR3Q/rpPa+LB2KUyDMROluMkZnfEEF4DhQyI5AHRoAe/zzu1Ty58MMmZXG4SuVEpXsng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/javascript/script.js"></script>
+    <script src="../javascript/script.js"></script>
 </body>
 </html>

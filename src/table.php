@@ -73,7 +73,7 @@ $tab = $re->fetchAll();
         </div> -->
         <table class="table w-[100%]  ">
             <thead>
-                <tr class=" px-[30px] py-[30px] text-2xl border-2 border-solid border-[#333] bg-blue-950 text-[#fff] ">
+                <tr class=" px-[30px] py-[30px] text-2xl border-2 border-solid border-[#333] bg-blue-400 text-[#fff] ">
                     <td class="hover:text-blue-400">ID</td>
                     <td class="hover:text-blue-400">Nom</td>
                     <td class="hover:text-blue-400">Etablissement</td>
@@ -118,17 +118,17 @@ $tab = $re->fetchAll();
 
                     <p class="paragrapheLink font-bold">
                         <i class="fa-brands fa-google text-2xl text-[#D14836]"></i>
-                        <a href="mailto:" class="">amcorporation@gmail.com</a>
+                        <a href="mailto:aubinborissimotsebo@gmail.com" class="" target="_blank">amcorporation@gmail.com</a>
                     </p>
                     <p class="paragrapheLink font-bold">
 
 
-                        <a href="https:wa.me/655476087" class=""> <i class="fa-brands fa-whatsapp text-3xl text-green-600"></i></a>
+                        <a href="https:wa.me/655476087" class="" target="_blank"> <i class="fa-brands fa-whatsapp text-3xl text-green-600"></i></a>
                         AM Corporation
                     </p>
                     <p class="paragrapheLink font-bold">
                         <i class="fa-sharp fa-solid fa-location-dot text-2xl text-[#D14836]"></i>
-                        <a href="#" class="">Bafousam entree de la ville</a>
+                        <a href="#" class="" target="_blank">Bafousam entree de la ville</a>
                     </p>
                 </div>
             </section>

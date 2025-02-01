@@ -145,17 +145,17 @@ $resultat = $stmt->fetchAll();
     
             <p class="font-bold">
                 <i class="fa-brands fa-google text-2xl text-[#D14836]"></i>
-                <a href="mailto:" class="">amcorporation@gmail.com</a>
+                <a href="mailto:aubinborissimotsebo@gmail.com" class="" target="_blank">amcorporation@gmail.com</a>
             </p>
             <p class="font-bold">
                
                
-                <a href="https:wa.me/655476087" class=""> <i class="fa-brands fa-whatsapp text-3xl text-green-600"></i></a>
+                <a href="https:wa.me/655476087" class="" target="_blank"> <i class="fa-brands fa-whatsapp text-3xl text-green-600"></i></a>
                 AM Corporation
             </p>
             <p class="font-bold">
                 <i class="fa-sharp fa-solid fa-location-dot text-2xl text-[#D14836]"></i>
-                <a href="#" class="">Bafousam entree de la ville</a>
+                <a href="#" class="" target="_blank">Bafousam entree de la ville</a>
             </p>
         </div>
     </section>
