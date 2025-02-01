@@ -27,7 +27,7 @@ $tab = $re->fetchAll();
     <header class="h-15vh w-[100vw] flex justify-around bg-blue-400 items-center text-white font-bold sticky top-[0] z-[10]">
 
         <div class="">
-            <img src="/asset/logo AM corporation.jpeg" alt="" class="w-[100px] h-[100px] rounded-full ">
+            <img src="../asset/logo AM corporation.jpeg" alt="" class="w-[100px] h-[100px] rounded-full ">
         </div>
         <nav class="">
             <ul class="flex gap-[30px]">
@@ -43,7 +43,7 @@ $tab = $re->fetchAll();
             </ul>
         </nav>
     </header>
-    <!-- <div class="container-bandes">
+    <div class="container-bandes">
         <div class="bandes"></div>
         <div class="bandes"></div>
         <div class="bandes"></div>
@@ -55,7 +55,7 @@ $tab = $re->fetchAll();
         <div class="bandes"></div>
         <div class="bandes"></div>
     </div>
-    <div class="wipe-transition"></div> -->
+    <div class="wipe-transition"></div>
     <main data-barba="container" data-barba-namespace="enregistrement">
         <!-- <div class="accueil2"></div> -->
     </main>
@@ -74,16 +74,16 @@ $tab = $re->fetchAll();
         <table class="table w-[100%]  ">
             <thead>
                 <tr class=" px-[30px] py-[30px] text-2xl border-2 border-solid border-[#333] bg-blue-400 text-[#fff] ">
-                    <td class="hover:text-blue-400">ID</td>
-                    <td class="hover:text-blue-400">Nom</td>
-                    <td class="hover:text-blue-400">Etablissement</td>
-                    <td class="hover:text-blue-400">Classe</td>
-                    <td class="hover:text-blue-400">Serie</td>
-                    <td class="hover:text-blue-400">Moyenne</td>
-                    <td class="hover:text-blue-400">Contact</td>
-                    <td class="hover:text-blue-400">Contact_parent</td>
-                    <td class="hover:text-blue-400">Concours</td>
-                    <td class="hover:text-blue-400">Actions</td>
+                    <td class="hover:text-[#333]">ID</td>
+                    <td class="hover:text-[#333]">Nom</td>
+                    <td class="hover:text-[#333]">Etablissement</td>
+                    <td class="hover:text-[#333]">Classe</td>
+                    <td class="hover:text-[#333]">Serie</td>
+                    <td class="hover:text-[#333]">Moyenne</td>
+                    <td class="hover:text-[#333]">Contact</td>
+                    <td class="hover:text-[#333]">Contact_parent</td>
+                    <td class="hover:text-[#333]">Concours</td>
+                    <td class="hover:text-[#333]">Actions</td>
 
 
 
@@ -140,7 +140,7 @@ $tab = $re->fetchAll();
             <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
             <script src="https://unpkg.com/scrollreveal"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.21.0/core.min.js" integrity="sha512-fo6X5UXaTRf/mHuTYJBR3Q/rpPa+LB2KUyDMROluMkZnfEEF4DhQyI5AHRoAe/zzu1Ty58MMmZXG4SuVEpXsng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script src="/javascript/script.js"></script>
+            <script src="../javascript/script.js"></script>
 </body>
 
 </html>

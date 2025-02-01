@@ -49,7 +49,7 @@ if(isset($_POST['ok'])){
         class="h-15vh w-[100vw] flex justify-around bg-blue-400 items-center text-white font-bold sticky top-[0] z-[10]">
 
         <div class="">
-            <img src="/asset/logo AM corporation.jpeg" alt="" class="w-[100px] h-[100px] rounded-full ">
+            <img src="../asset/logo AM corporation.jpeg" alt="" class="w-[100px] h-[100px] rounded-full ">
         </div>
         <nav class="">
             <ul class="flex gap-[30px]">
@@ -65,7 +65,7 @@ if(isset($_POST['ok'])){
             </ul>
         </nav>
     </header>
-    <!-- <div class="container-bandes">
+    <div class="container-bandes">
         <div class="bandes"></div>
         <div class="bandes"></div>
         <div class="bandes"></div>
@@ -77,7 +77,7 @@ if(isset($_POST['ok'])){
         <div class="bandes"></div>
         <div class="bandes"></div>
      </div>
-     <div class="wipe-transition"></div> -->
+     <div class="wipe-transition"></div>
      <main data-barba="container" data-barba-namespace="enregistrement">
         <!-- <div class="accueil3"></div> -->
     </main>
@@ -189,7 +189,7 @@ if(isset($_POST['ok'])){
     <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.21.0/core.min.js"
         integrity="sha512-fo6X5UXaTRf/mHuTYJBR3Q/rpPa+LB2KUyDMROluMkZnfEEF4DhQyI5AHRoAe/zzu1Ty58MMmZXG4SuVEpXsng=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/javascript/script.js"></script>
+    <script src="../javascript/script.js"></script>
 
 </body>
 

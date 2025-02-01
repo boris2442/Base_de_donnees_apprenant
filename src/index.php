@@ -21,7 +21,7 @@ require_once"connexion.php";
     <header class="h-15vh w-[100vw] flex justify-around bg-blue-400 items-center text-white font-bold sticky top-[0] z-[10]">
 
         <div class="">
-            <img src="/asset/logo AM corporation.jpeg" alt="" class="w-[100px] h-[100px] rounded-full ">
+            <img src="../asset/logo AM corporation.jpeg" alt="" class="w-[100px] h-[100px] rounded-full ">
         </div>
         <nav class="">
             <ul class="flex gap-[30px]">
